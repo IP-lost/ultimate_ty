@@ -12,7 +12,7 @@ namespace ultimate_ty.Data
         {
             return new List<Usuario>();
             {
-                new Usuario() { Nombre = "Juan Perez", Correo = "juan.perez0gmail.com", Clave = "123", Roles = new string[] { "Administrador" } };
+                new Usuario() { Nombre = "Juan Perez", Correo = "juan.perez0@gmail.com", Clave = "123", Roles = new string[] { "Administrador" } };
 
                 new Usuario() { Nombre = "Maria Torrez", Correo = "maria.torres0@gmail.com", Clave = "123", Roles = new string[] { "Administrador" } };
 
