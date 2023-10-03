@@ -18,6 +18,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         //ruta en caso de Acceso denegado
         option.AccessDeniedPath = "/Home/Privacy";
     }
+
     );
 
 var app = builder.Build();
