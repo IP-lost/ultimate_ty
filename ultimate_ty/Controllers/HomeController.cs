@@ -40,7 +40,8 @@ namespace ultimate_ty.Controllers
             return View();
         }
         [Authorize(Roles = "Administrador, Superivisor, Empleado")]
-
+        //los roles de estos trabajos estan completados en todo esto les daremos como concepto 
+        //abarcamos trigers y estamos con javascript y tendremos un repositorio para las multiplataformas 
         public IActionResult Ventas()
         {
             return View();

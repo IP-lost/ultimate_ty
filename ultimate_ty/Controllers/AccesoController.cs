@@ -38,6 +38,9 @@ namespace ultimate_ty.Controllers
                     new Claim("Correo",usuario1.Correo)
                 };
 
+
+               //Implementacion de los trigers en este momento estan por cargar y estaran en tema de debate los grupos estaran en el caso de 
+               //la base de datos estan en los demas campos de los controladores y estaremos completando en el tiempo restante
                 foreach (string rol in usuario1.Roles)
                 {
                     claims.Add(new Claim(ClaimTypes.Role, rol));
